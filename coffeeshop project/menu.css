@@ -1,0 +1,172 @@
+
+          /* Navigation bar styling */
+      
+nav {
+      background-color: #5a3825; /* background color */
+      padding: 10px; /* the hight of the nav bar */
+    }
+
+nav ul {
+      list-style: none; /* Remove bullet points */
+      margin: 0;
+      padding: 0;
+      display: flex; /* Display horizontally */
+      justify-content: center;
+    }
+
+nav ul li {
+      margin: 0 15px; /* Space between nav items */
+    }
+
+nav ul li a {
+      text-decoration: none; /* Remove underline */
+      color: white;
+      font-weight: bold;
+    }
+        
+
+
+body{
+    background-color:#fee8db;
+   
+}
+.body{
+     margin-left: 50px;
+}
+body h1{
+    
+     text-align: auto;
+     color:#714100;
+}
+hr{
+    width:100%;
+    margin: 20px auto;
+    border: 1px solid #714100;
+}
+.hor{
+    width:98%;
+     margin-left:1px;
+   
+    
+}
+.my-img1{
+    display: block;
+    width:90px;
+    height: auto;
+    margin: auto;
+}
+.my-img2{
+    display: block;
+     height: 100;
+    width:90px;
+    margin:0 auto;
+}
+.my-img3{
+    display: block;
+     margin: auto;
+     width:90px;
+     height: auto;
+}
+.my-img4{
+    display: block;
+    margin:0 auto;
+    width:90px;
+     height: auto;
+}
+.my-img5{
+    display: block;
+    margin:auto;
+    width:90px;
+     height: auto;
+}
+.my-img6{
+    display: block;
+    margin:0 auto;
+    width:90px;
+     height: auto;
+}
+.my-img7{
+    display: block;
+    margin:0 auto;
+    width:90px;
+     height: auto;
+}
+.my-img8{
+    display: block;
+    margin:0 auto;
+    width:90px;
+     height: auto;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    text-align: center;
+}
+.gallery img {
+    
+    width: 150px;    
+    height: 150px;   
+    object-fit: cover; 
+    border-radius: 10px;
+}
+.gallery p{
+    margin-bottom:2px;
+    color:#492408;
+    
+}
+.food h3{
+    
+    margin-bottom:1px;
+    color:#03112b;
+}
+.food li{
+    color:#081e49;   
+}
+
+ .my-cart{
+    float:right;
+    width: 50px;    
+    height: 50px; 
+    margin: auto;
+    border: solid;
+    border-radius: 100px;
+    border-color: #714100;
+    padding:05px;
+    margin-right: 50px;
+    
+}
+
+.cart_warpper{
+    
+position:relative;
+display:inline-block;
+}
+
+#count{
+    position:absolute;
+    
+    right:50px;
+    background:#492408;
+    color:white;
+    border-radius: 100%;
+    font-size: 12px;
+    padding: 2px 6px;
+    
+}
+
+.sweet{
+    
+float:inline-start;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+

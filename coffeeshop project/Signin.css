@@ -1,0 +1,70 @@
+             /* Navigation bar styling */
+      
+nav {
+      background-color: #5a3825; /* background color */
+      padding: 10px; /* the hight of the nav bar */
+    }
+
+nav ul {
+      list-style: none; /* Remove bullet points */
+      margin: 0;
+      padding: 0;
+      display: flex; /* Display horizontally */
+      justify-content: center;
+    }
+
+nav ul li {
+      margin: 0 15px; /* Space between nav items */
+    }
+
+nav ul li a {
+      text-decoration: none; /* Remove underline */
+      color: white;
+      font-weight: bold;
+    }
+    
+
+
+
+body {
+    background-color:#cabcbc40; 
+}
+.my-img{
+    display: block;
+    margin:0 auto;
+    width:200px;
+}
+.box{
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 10vh;
+}
+.box label{
+    
+    display: block;
+    margin-bottom:5px;
+    color:#733a11;
+    font-weight: bold;
+}
+.login{
+    text-align: center;
+}
+.remm{
+    font-size: 13px; 
+    display: flex;
+    align-items: center;
+    gap: 5px;  
+    cursor: pointer;
+    color:#49270e;
+    font-weight: bold;
+}
+.remm input[type="checkbox"] {
+  width: 16px;          
+  height: 16px; 
+  accent-color: brown;
+    
+  margin-right: 4px;
+}
+
