@@ -137,11 +137,7 @@ hr{
     
 }
 
-.cart_warpper{
-    
-position:relative;
-display:inline-block;
-}
+
 
 #count{
     position:absolute;
@@ -160,6 +156,7 @@ display:inline-block;
 float:inline-start;
     margin-right: 10px;
 }
+
 
 
 
