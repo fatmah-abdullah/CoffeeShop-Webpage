@@ -24,28 +24,3 @@
         
             
           
-            /* Navigation bar styling */
-      
-    nav {
-      background-color: #5a3825; /* background color */
-      padding: 10px; /* the hight of the nav bar */
-    }
-
-    nav ul {
-      list-style: none; /* Remove bullet points */
-      margin: 0;
-      padding: 0;
-      display: flex; /* Display horizontally */
-      justify-content: center;
-    }
-
-    nav ul li {
-      margin: 0 15px; /* Space between nav items */
-    }
-
-    nav ul li a {
-      text-decoration: none; /* Remove underline */
-      color: white;
-      font-weight: bold;
-    }
-
